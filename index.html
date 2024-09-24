@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>O roubo do diamante</title>
+</head>
+<body>
+    
+<main>
+<div class="passo ativo" id="passo-0">
+   <img src="img/cenario-passo0.avif" alt="cenario-passo0">
+    <p>Chegou na cidade uma nova exposição e junto dela um diamante que custava bilhões de dollars, com isso fiquei intrigado e descidi que iria roubar o tal diamante.</p>
+    <button class="btn-proximo" data-proximo="1">Entrar de fininho</button>
+    <button class="btn-proximo" data-proximo="2">Usar uma scooter</button> 
+</div>
+<div class="passo" id="passo-1">
+    <img src="img/parede-passo1.jpg" alt="parede">
+    <p>Me daparei com uma parede enorme na qual não conseguia escalar.</p>
+    <button class="btn-proximo" data-proximo="3">Teletransporte</button>
+    <button class="btn-proximo" data-proximo="4">Botas magneticas</button> 
+</div>
+<div class="passo" id="passo-2">
+    <img src="img/policiais-passo2.jpg" alt="policia">
+  <p>Encontrei vários policiais armados apontando suas armas para mim, logo a frete vi uma lança e um escudo.</p>
+  <button class="btn-proximo" data-proximo="5">Pegar uma lança</button>
+    <button class="btn-proximo" data-proximo="6">Pegar um escudo</button> 
+</div>
+    <div class="passo" id="passo-3">
+        <img src="img/guarda-passo3.jpg" alt="guarda">
+        <p>Consegui parar no terraço, mas encontrei um guarda e preciso fazer alguma coisa.</p>
+        <button class="btn-proximo" data-proximo="7">Uso uma moeda para distrai-lo</button>
+        <button class="btn-proximo" data-proximo="8">Uso um tranquilizador</button> 
+    </div>
+<div class="passo" id="passo-4">
+    <img src="img/fail.webp" alt="fail">
+    <p>A parede era de concreto, não consegui usar as botas.</p>
+    <button class="btn-proximo" data-proximo="1">Tentar novamente</button>
+    <button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+</div>
+<div class="passo" id="passo-5">
+    <img src="img/fail.webp" alt="fail">
+     <p>Era grande e pontuda, acabou batendo no chão e acabei tropeçando.</p>
+     <button class="btn-proximo" data-proximo="2">Tentar novamente</button>
+     <button class="btn-proximo" data-proximo="0">Voltar so inicio</button>
+</div>
+<div class="passo" id="passo-6">
+    <img src="img/diamante-passo6.jpg" alt="scooter">
+     <p>Consegui me proteger das balas e chego até a sala do diamante.</p>
+    <button class="btn-proximo" data-proximo="9">Coloco na cesta da scooter</button>
+    <button class="btn-proximo" data-proximo="10">Uso um gancho para segurar o diamante</button> 
+</div>
+<div class="passo" id="passo-7">
+    <img src="img/diamante-passo7.jpg" alt="diamante">
+    <p>Distrai o guarda e consegui entrar, mas o diamante esta no andar de baixo.</p> 
+    <button class="btn-proximo" data-proximo="11">Uso uma garra para descer</button>
+    <button class="btn-proximo" data-proximo="12">Vou na fé e pulo</button> 
+</div>
+<div class="passo" id="passo-8">
+    <img src="img/fail.webp" alt="fail">
+    <p>Sou ruim de mira e cabei acertando em mim.</p>
+    <button class="btn-proximo" data-proximo="3">Tentar novamente</button>
+    <button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+</div>
+<div class="passo" id="passo-9">
+    <img src="img/fail.webp" alt="fail">
+    <p>O diamante é muito pesado e não consigo sair do lugar.</p>
+    <button class="btn-proximo" data-proximo="6">Tentar novamente</button>
+    <button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+</div>
+<div class="passo" id="passo-10">
+    <img src="img/vitoria-passo10.jpg" alt="vitoria scooter">
+    <p>Consigo fugir com o diamante, VITÓRIA!</p>
+    <button class="btn-proximo" data-proximo="0">Tentar outro caminho</button>
+</div>
+<div class="passo" id="passo-11">
+    <img src="img/diamante-passo11.jpg" alt="chegou no diamante">
+    <p>Desci com segurança, mas o diamante está protegido com um vidro.</p> 
+    <button class="btn-proximo" data-proximo="13">Uso um laser</button>
+    <button class="btn-proximo" data-proximo="14">Pego o martelo e quebro o vidro</button> 
+</div>
+<div class="passo" id="passo-12">
+    <img src="img/fail.webp" alt="fail">
+    <p>Quebrei o vidro que protegia o diamante, acabei me machucando e sendo preso.</p>
+    <button class="btn-proximo" data-proximo="7">Tentar novamente</button>
+    <button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+</div>
+
+<div class="passo" id="passo-13">
+    <img src="img/fail.webp" alt="fail">
+<p>Não sei usar  o laser e acabei morrendo.</p>
+<button class="btn-proximo" data-proximo="11">Tentar novamente</button>
+<button class="btn-proximo" data-proximo="0">Voltar ao inicio</button>
+</div>
+<div class="passo" id="passo-14">
+    <img src="img/vitoria-passo14.jpg" alt="vitoria">
+    <p>Quebrei o vidro e peguei o diamante e consegui fugir sem ser visto. VITÓRIA!</p>
+    <button class="btn-proximo" data-proximo="0">Tentar outro caminho</button>
+
+</div>
+
+
+</main>
+<script src="script.js"></script>
+
+</body>
+</html>

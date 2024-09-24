@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(37, 58, 90);
+    color: white;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+
+}
+
+button{
+    background-color: rgb(86, 107, 199);
+    color: rgb(255, 255, 255);
+    font-family: "Nunito", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 50%;
+}
